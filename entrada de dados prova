@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrada/</title>
+</head>
+<body>
+    <h1>Entrada de dados</h1>
+    <input type="text" id="nome" placeholder="Digite seu nome completo">
+    <label for="">|Digite o ano que você nasceu</label>
+    <input type="date" id="data"><br>
+    <label for="">sexo</label><br>
+</body>

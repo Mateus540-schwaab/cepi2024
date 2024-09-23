@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora de IMC</title>
+    <!--calculadora de IMC
+        o código deve pedir;
+        -o nome do usuario e guardar em uma variável;
+        -o peso da pessoa em kg e guarda em variável;
+        -a altura da pessoa em metros;
+        calcular o IMC com a fórmula; imc = peso/altura**2;
+        checar qual é o IMC da pessoa e retornar o resultado;
+        - imc ,18.5 baixo peso;
+        - imc >= 18.5 E imc < 24.9 peso ideal;
+        - imc >= 24.9 E imc <29.9 sobre peso;
+        - imc >= 29.9 E imc <34.9 obesidade Grau I;
+        - imc >= 34.9 E imc <40 obesidade Grau II;
+        - imc >= 40 obesidade Grau III;
+        Após mostrar o resultado deve informar quanto o usuario deve:
+        - Ganhar em kg se for menor que o IMC 18.5;
+        - perder em kg se for maior que o IMC 29.9;
+
+        Criar as variáveis:
+        - nome;
+        - peso;
+        - altura;
+        -situação;
+        - imc;
+       -->
+</head>
+<body>
+    <h1>Cauculadora de IMC</h1>
+
+    <input type="text" id="Nome" placeholder="Digite seu Nome">
+    <br>
+    <label for="">Digite seu peso em Kg</label>
+    <input type="number" min="0" max="550" id="numero">
+    <br>
+    <label for="">Digite sua Altura em Metros</label>
+    <input type="number" min="0" max="3" id="Altura">
+    <br>
+    <button onclick="verificar()">Calcular</button>
+    <hr>
+    <div id="retorno"></div>
+  
+</head>
+<body>

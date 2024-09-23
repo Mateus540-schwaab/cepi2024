@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="container">
+
+    <h1>telade login</h1>
+    <input class="text" id="user" placeholder="digite seu Usuário">
+    <input type="password" id="senha" placeholder="digite sua senha">
+    <button onclick="entrar()">Entrar</button>
+    <hr>
+    <div id="tela"></div>
+</body>
+<footer>
+    <script>
+        let user="eu mesmo", senha=40028922, user1="",senha1=""
+        function entrar(){
+            user1=document.getElementById("user").value;
+            senha1=document.getElementById("senha").value;
+            alert(user1);
+            alert(senha1);
+            //alert(user1);
+            //alert(senha1);
+            if(user1!=user){
+                document.getElementById("tela").innerHTML+="Usuário errado<br>"
+            }if(senha1!=senha){
+                document.getElementById("tela").innerHTML+="senha ivalida<br>"
+            }
+            if(user1==user&&senha1==senha){
+                document.getElementById("tela").innerHTML="login efetuado com sucesso"
+            }
+        }
+    </script>
+</footer>
+</html>
